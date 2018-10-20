@@ -1,0 +1,19 @@
+﻿<div class="umb-box" ng-controller="ContentApps.PageSpeedApp as vm">
+    <div class="umb-box-header">
+        <div class="umb-box-header-title">
+            PageSpeed Insights for - {{vm.title}}
+            <span ng-show="vm.completed">
+                (Score: <b>{{vm.score}}</b>)
+            </span>
+            <p ng-show="vm.statusText"><small>{{vm.statusText}}</small></p>
+        </div>
+    </div>
+    <div class="umb-box-content">
+        <ul>
+            
+            <li ng-repeat="(key, value) in vm.rules">
+                <b>{{value.localizedRuleName}}</b> - impact {{value.ruleImpact}}
+            </li>
+        </ul>
+    </div>
+</div>

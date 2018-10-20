@@ -1,0 +1,18 @@
+﻿{
+    contentApps: [
+        {
+            "name": "Page Speed",
+            "alias": "pageSpeedApp",
+            "weight": 0,
+            "icon": "icon-speed-gauge",
+            "view": "~/App_Plugins/PageSpeedApp/pagespeedapp.html",
+            "show": [ 
+                "+content/*",
+                "+role/admin"
+            ]
+        }
+    ],
+    javascript: [
+        '~/App_Plugins/PageSpeedApp/pagespeedapp.controller.js'
+    ]
+}
