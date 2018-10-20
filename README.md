@@ -1,6 +1,6 @@
 # PageSpeed Content App
 
-Simple Content App for Umbraco v8 displaying PageSpeed Insights for current node
+Simple Content App for Umbraco v8 displaying PageSpeed Insights for the current content node.
 
 ## Install
 
